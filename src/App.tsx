@@ -3,7 +3,7 @@ import { jsx, css } from "@emotion/core";
 import React from "react";
 
 const style = css`
-  background: red;
+  background: blue;
 `;
 
 type Props = {
