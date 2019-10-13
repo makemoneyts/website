@@ -2,6 +2,7 @@
 import { jsx, css, Global } from "@emotion/core";
 import React, { useState } from "react";
 import { Helmet } from "react-helmet";
+import Trends from "~/pages/trends";
 
 const globalStyle = css`
   body {
@@ -35,8 +36,9 @@ const tooManyStyle = css`
 
 const wrapperStyle = css`
   user-select: none;
-  height: 100vh;
+  height: 90vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 `;
@@ -94,6 +96,7 @@ const App: React.FC = () => {
       <div onClick={moneyClicked} css={wrapperStyle} className="App">
         <Title count={clickedCount} clicked={clicked} />
         <TooMany count={clickedCount} clicked={clicked} />
+        <Trends />
       </div>
     </div>
   );
