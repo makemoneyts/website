@@ -8,7 +8,7 @@ let Home = () => <div>Home</div>;
 let Dash = () => <div>Dash</div>;
 
 ReactDOM.render(
-  <Router basename='/website/'>
+  <Router>
     <Switch>
       <Route path="/about">
         <Home />
