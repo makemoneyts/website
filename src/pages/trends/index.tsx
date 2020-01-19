@@ -48,6 +48,16 @@ const Trends: React.FC<{}> = () => {
             MakeMoney.TS #2 開催 2020/1/25 14:00~
           </Link>
         </li>
+        <li>
+          <Link
+              css={css`
+              color: gray;
+            `}
+              to="/"
+          >
+            &#x2622; MakeMoney.TS Conf!!!! &#x2622;
+          </Link>
+        </li>
       </ul>
     </div>
   );
