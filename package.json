@@ -2,7 +2,6 @@
   "name": "make-money-ts",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://makemoneyts.github.io/website",
   "dependencies": {
     "@craco/craco": "^5.5.0",
     "@emotion/core": "^10.0.17",
