@@ -19,14 +19,14 @@ const Trends: React.FC<{}> = () => {
         `}
       >
         <li>
-          <Link
-            to="https://github.com/hasura/3factor-example/"
+          <a
+            href="https://github.com/hasura/3factor-example/"
             css={css`
               color: gray;
             `}
           >
             今 Hasura が金になりそうな気がしている。
-          </Link>
+          </a>
         </li>
         <li>
           <Link
