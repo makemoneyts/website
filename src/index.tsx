@@ -4,14 +4,19 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-let Home = () => <div>Home</div>;
+import MMTS1 from "~/pages/Articles/MMTS1";
+import MMTS2 from "~/pages/Articles/MMTS2";
+
 let Dash = () => <div>Dash</div>;
 
 ReactDOM.render(
   <Router>
     <Switch>
-      <Route path="/about">
-        <Home />
+      <Route path="/mmts1">
+        <MMTS1 />
+      </Route>
+      <Route path="/mmts2">
+        <MMTS2 />
       </Route>
       <Route path="/users">
         <Dash />
