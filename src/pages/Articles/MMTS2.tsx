@@ -52,6 +52,7 @@ const MMTS1: React.FC<{}> = () => {
       <Global styles={globalStyle} />
       第二回 MakeMomoney.TS。コア技術である GraphQL
       を構築するライブラリ「Apollo」の公式ドキュメント翻訳完了記念パーティー。翻訳者が集合。
+      Apollo Japan User Group を発足。
       <br />
     </div>
   );
